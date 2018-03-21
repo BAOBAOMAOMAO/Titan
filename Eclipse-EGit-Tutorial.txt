@@ -1,0 +1,48 @@
+Xiaoman Xu
+Github Repository Settings Tutorial
+
+------------------------Get Repository from Github-------------------------------------
+0. Before import the project, make sure there's not a project named "GUI" in your 
+   Eclipse Workspace
+   Import之前请检查在Eclipse Workspace里没有名字为GUI的project
+1. In Eclipse, File -- Import -- Projects from Git -- Next -- Clone URI -- Next
+2. Enter the following link in URL
+   https://github.com/emxxxm/TITAN_Project
+3. -- Next -- Next 
+   For local destination directory, make sure either of the followings:
+      *The directory in default path is empty.(默认的path下的directory为空）
+      *Create new directory （直接创建新的directory，path自定）
+4. -- Click Next -- Import exsiting projects -- Next -- Finish
+5. The project should show up in both Eclipse Workspace and Git Repository
+   Project会出现在Eclipse Workspace和Git Repository里
+------------------------Finish Get Repository from Github------------------------------
+
+---------------------------Merge with Remote Repository--------------------------------
+1. Everytime after you make some changes that you want to keep, first merge with remote
+   Repository in Githup.（每次update 或 fetch之前，请先做Merge)
+2. Right click on the Project, choose Team -- Merge.
+3. Choose the item under Remote Tracking directory and Merge
+   选Remote Traking directory下的选项，然后点击Merge
+4. After that, you can commit and push or pull/fetch from Upstream.
+   现在可以进行commit and push 或者pull/fetch from Upstream
+------------------------Finish Merge with Remote Repository----------------------------
+
+------------------------Commit and Push Updates to Repository--------------------------
+0. Make sure you do merge first.
+1. After making the changes you want, right click on the project, choose Team -- Commit
+2. Type in your commmit message, this message would show on Github project page
+3. Click Commit
+4. Right click on the project agian, choose Team -- Push to Upstream
+5. Enter your Github username and password, click OK
+6. Wait to finish and click OK to complete
+---------------------Finish Commit and Push Updates to Repository----------------------
+
+---------------------Pull from Github Repository to Get Updates------------------------
+0. Make sure you do merge first.
+1. To get the newst version in Github Repository, right click on the project
+2. Chosse Team -- Pull/Fetch from Upstream, either one should work
+3. If there's any change that is not made by you, then it should work
+4. Else you would get a message says something simalr with "up to date" in the result
+-----------------Finish Pull from Github Repository to Get Updates---------------------
+
+
